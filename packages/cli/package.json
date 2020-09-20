@@ -14,11 +14,10 @@
     "yargs": "^16.0.3"
   },
   "scripts": {
-    "build": "yarn build:js && yarn build:clean-dist",
+    "watch": "yarn clean && tsc -w",
+    "build": "yarn clean && tsc",
+    "clean": "rm -rf dist",
     "prepublishOnly": "yarn build",
-    "build:clean-dist": "yarn rimraf 'dist/**/__tests__'",
-    "build:js": "babel src -d dist --extensions \".js,.ts,.tsx\" --copy-files --no-copy-ignored",
-    "build:watch": "nodemon --watch src --ext \"js,ts,tsx,template\" --ignore dist --exec \"yarn build\"",
     "test": "jest",
     "test:watch": "yarn test --watch"
   }
