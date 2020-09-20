@@ -1,5 +1,7 @@
 # Bonsai
 
+![.github/workflows/bonsai.yml](https://github.com/bonsaijs/bonsai/workflows/.github/workflows/bonsai.yml/badge.svg)
+
 Although Facebook develops the React Native framework, they delegated the role of developing a CLI tool to the community. As a result, several solutions emerged in the community. There are tools like [Expo](https://docs.expo.io/) that combine a framework and tooling around it, and [react-native-community/cli](https://github.com/react-native-community/cli) that is considered the official CLI.
 
 As a user taking the first steps with React Native, **Expo** provides convenient workflows, packages, and services so that you don't have to leave the Expo ecosystem. However, that convenience comes with the cost of strong dependency on the Expo environment, which is oriented towards selling services: _projects are structured the Expo way and they have their [own solution](https://docs.expo.io/bare/installing-unimodules/) for setting up their modules_. At some point, users feel they need that convenience but without being tied to their ecosystem.
