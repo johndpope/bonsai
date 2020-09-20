@@ -15,3 +15,8 @@ Bonsai is an attempt to take a different approach:
 Although it builds upon ideas from Expo and the react-native-cli, we are building this as a new tool to be able to prototype and validate the aforementioned ideas with ease. Those tools are mature and thus introducing such a radical change to their design would be a tedious process that would imply getting approval from the community and align all the maintainers of the tool. Moreover, it'd be challenging to safely migrate users to the new approach without breaking anything on their end.
 
 We believe that Bonsai can be another valid approach to manage React Native projects and that users should be free to pick the one that aligns best with their needs.
+
+## Setup
+
+1. Clone the repository `git clone git@github.com:bonsaijs/bonsai.git`.
+2. Install dependencies `yarn install`
